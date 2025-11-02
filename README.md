@@ -2,6 +2,9 @@
 
 This project sets up an AWS environment with a VPC, a private subnet, and an EC2 instance. The EC2 instance is configured to be managed by AWS Systems Manager (SSM).
 
+## Architecture
+![](./ec2_ssm.drawio.png)
+
 ## Prerequisites
 
 - [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
