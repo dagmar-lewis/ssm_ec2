@@ -1,4 +1,4 @@
-# SSM EC2
+# Access a Private Ec2 Instance with AWS SSM
 
 This project sets up an AWS environment with a VPC, a private subnet, and an EC2 instance. The EC2 instance is configured to be managed by AWS Systems Manager (SSM).
 
