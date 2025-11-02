@@ -1,4 +1,4 @@
-# Access a Private Ec2 Instance with AWS SSM
+# SSM EC2
 
 This project sets up an AWS environment with a VPC, a private subnet, and an EC2 instance. The EC2 instance is configured to be managed by AWS Systems Manager (SSM).
 
@@ -30,18 +30,6 @@ This project sets up an AWS environment with a VPC, a private subnet, and an EC2
    ```bash
    terraform apply
    ```
-
-## CI/CD
-
-This project uses GitHub Actions for CI/CD. The workflows are defined in the `.github/workflows` directory.
-
-- `build_image.yml`: Builds a container image.
-- `redeploy.yml`: Redeploys the application.
-- `terraform_apply.yml`: Applies the Terraform configuration.
-- `terraform_destroy.yml`: Destroys the Terraform-managed infrastructure.
-- `terraform_plan.yml`: Creates a Terraform plan.
-
-## Terraform Modules
 
 The Terraform configuration is divided into the following files:
 
